@@ -32,6 +32,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item-intro mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#intro">Intro</a>
+          </li>
           <li class="nav-item-portfolio mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">Projects</a>
           </li>
@@ -59,6 +62,19 @@
       <!-- Masthead Heading -->
       <h1 class="masthead-heading mb-0">Clément Landrin</h1>
 
+      <!-- Masthead Subheading -->
+      <p class="masthead-subheading font-weight-light">3D Engineer Student - Looking for an internship for February 2020</p>
+
+    </div>
+  </header>
+
+  <!-- Intro Section -->
+  <section class="page-section page-intro bg-primary text-white" id="intro">
+    <div class="container d-flex align-items-center flex-column">
+
+      <!-- Intro Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Intro</h2>
+      
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
@@ -68,16 +84,21 @@
         <div class="divider-custom-line"></div>
       </div>
 
-      <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-5">3D Engineer Student - Looking for an internship for February 2020</p>
+      <p class="lead text-center mb-5">Hello and welcome. If you are here, you might be a recruiter, a teacher, a friend or even someone lost on the web... 
+        <br>Whoever you are, let me suggest to turn the discovery of this website into a relaxing break. If you don't dislike classical music, let's launch the video below and scroll!</p> 
+      <iframe class="mb-5" id="chopin" width="560" height="315" src="https://www.youtube.com/embed/Ce8p0VcTbuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
-      <p class="lead mb-5">Hello and welcome to my portfolio. 
-        <br>If you are here, you might be a recruiter, a teacher, a friend or even someone lost on the web... 
-        <br>Whoever you are, let me suggest a relaxing break. If you don't dislike classical music, let's launch the video below and explore!</p> 
-      <iframe id="chopin" width="560" height="315" src="https://www.youtube.com/embed/Ce8p0VcTbuA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p class="lead text-center mb-5">You can also download my resume clicking the button below:</p>
+
+      <a href="download/cv_clementlandrin.pdf" download>
+        <button class="btn btn-white">
+          <i class="fas fa-download fa-fw"></i>
+          Download My Resume
+        </button>
+      </a>
 
     </div>
-  </header>
+  </section>
 
   <!-- Projects Section -->
   <section class="page-section portfolio" id="projects">
@@ -201,7 +222,11 @@
             <!-- Jakub - Image -->
             <img border-radius="50" class="img-fluid-rounded mb-5" src="img/portfolio/jakub.png" alt="">
             <!-- Jakub - Text -->
-            <p class="lead text-justify">Jakub Mrowiński is a C++ Senior Programmer from Poland. He has been the Lead Programmer of the project Battle For Middle Earth: Reforged until September 2019. I learnt a lot from him, both technically and humanly. He can be contacted using <a class="a link-orange" href="https://www.linkedin.com/in/jakub-mrowiński-5559b8171">his LinkedIn profile</a>.</p>
+            <p class="lead text-justify">Jakub Mrowiński is a C++ Senior Programmer from Poland. He has been the Lead Programmer of the project Battle For Middle Earth: Reforged until September 2019. I learnt a lot from him, both technically and humanly.</p>
+            <div class="mb-5">
+              <img border-radius="50" class="img-fluid-rounded" src="img/portfolio/linkedin_logo.png" alt="">
+              <a class="a link-orange" padding-right="2" href="https://www.linkedin.com/in/jakub-mrowiński-5559b8171">Jakub on LinkedIn</a>
+            </div>
          </div> 
         </div>
 
@@ -211,7 +236,14 @@
             <!-- Stéphane - Image -->
             <img border-radius="50" class="img-fluid-rounded mb-5" src="img/portfolio/stephane.png" alt="">
             <!-- Stéphane - Text -->
-            <p class="lead text-justify">Stéphane is a French web developper and was my iOS mentor when I worked at SpeakShake. He also taught me how to interface my mobile applications with a web API. He can be contacted using <a class="a link-orange" href="https://www.linkedin.com/in/stephane-joussin-8455b9104">his LinkedIn profile</a> or his phone number: <a class="a link-orange" href="tel:+33620774530">+33 (0)6 20 77 45 30</a>.</p>
+            <p class="lead text-justify">Stéphane is a French web developper and was my iOS mentor when I worked at SpeakShake. He also taught me how to interface my mobile applications with a web API.</p>
+            <div class="mb-5">
+              <img border-radius="50" class="img-fluid-rounded" src="img/portfolio/linkedin_logo.png" alt="">
+              <a class="a link-orange" padding-right="2" href="https://www.linkedin.com/in/stephane-joussin-8455b9104">Stéphane on LinkedIn</a>
+              <br><br>
+              <img border-radius="50" class="img-fluid-rounded" src="img/portfolio/phone_logo.png" alt="">
+              <a class="a link-orange" href="tel:+33620774530">+33 (0)6 20 77 45 30</a>
+            </div>
          </div> 
         </div>
 
@@ -221,7 +253,14 @@
             <!-- Fanny - Image -->
             <img border-radius="50" class="img-fluid-rounded mb-5" src="img/portfolio/fanny_2.png" alt="">
             <!-- Fanny - Text -->
-            <p class="lead text-justify">Fanny is a French manager and created the start-up SpeakShake that I integrated for a mobile developper internship in summer 2017. I have been continuing working with her as a freelancer once my internship ended. She can be contacted by <a class="a link-orange" href="https://www.linkedin.com/in/fanny-vallantin-87353811b/">her LinkedIn profile</a> or her phone number: <a class="a link-orange" href="tel:+33768448418">+33 (0)7 68 44 84 18</a>.</p>
+            <p class="lead text-justify">Fanny is a French manager and created the start-up SpeakShake that I integrated for a mobile developper internship in summer 2017. I have been continuing working with her as a freelancer once my internship ended.</p>
+            <div class="mb-5">
+              <img border-radius="50" class="img-fluid-rounded" src="img/portfolio/linkedin_logo.png" alt="">
+              <a class="a link-orange" padding-right="2" href="https://www.linkedin.com/in/fanny-vallantin-87353811b/">Fanny on LinkedIn</a>
+              <br><br>
+              <img border-radius="50" class="img-fluid-rounded" src="img/portfolio/phone_logo.png" alt="">
+              <a class="a link-orange" href="tel:+33768448418">+33 (0)7 68 44 84 18</a>
+            </div>
          </div> 
         </div>
 
@@ -310,14 +349,6 @@
           <i class="fas fa-star"></i>
         </div>
         <div class="divider-custom-line"></div>
-      </div>
-    
-      <div class="flex-column divider-custom">
-        <div class="divider-custom-vertical-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-vertical-line"></div>
       </div>
 
     </div>
@@ -446,8 +477,8 @@
                 <p class="mb-5 text-justify">As a Tolkien fan, I decided to get involved in this project as soon as I heard about it. We aim to create a new AAA video game using Unreal Engine and the same gameplay base as in the famous video games Battle For Middle Earth 1 & 2.
                   <br><br>The team is made up of fans from around the world and brings together musiscians, programmers, animators, artists, 3D modellers and others. I have been working in the team as a C++ programmer since January 2019.
                   <br><br>My contributions relate to the areas of User Interface, the creation of assets, the debug, the massive redrafting of existing code and pushing the manager to get new tools to better manage development.
-                  <br><br>You can check the References section to know more about our former Lead Programmer, Jakub Mrowiński!</p>
-                <button class="btn btn-primary" href="#references" data-dismiss="modal">
+                </p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
                 </button>
