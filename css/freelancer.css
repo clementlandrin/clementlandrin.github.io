@@ -32,6 +32,8 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
+  --salmon: #fa8072;
+  --lightsalmon: #fff;
   --primary: #000000;
   --secondary: #000000;
   --success: #28a745;
@@ -194,11 +196,21 @@ a:hover {
   background-color: transparent;
 }
 
+.a.link-hobbies {
+  color: salmon;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 .a.link-blue:hover {
   color: blue;
   text-decoration: underline;
 }
 
+.a.link-hobbies:hover {
+  color: lightsalmon;
+  text-decoration: underline;
+}
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -9457,6 +9469,10 @@ button.bg-dark:focus {
   color: green !important;
 }
 
+.text-hobbies {
+  color: salmon !important;
+}
+
 .text-cyan {
   color: cyan !important;
 }
@@ -9704,16 +9720,6 @@ a.text-dark:hover, a.text-dark:focus {
   border-color: black !important;
 }
 
-.divider-custom .divider-custom-vertical-middle-line {
-  height: 100%;
-  min-height: 5rem;
-  max-height: 7rem;
-  width: 0.25rem;
-  background-color: black;
-  border-radius: 1rem;
-  border-color: black !important;
-}
-
 .divider-custom .divider-custom-icon {
   color: black !important;
   font-size: 2rem;
@@ -9725,6 +9731,18 @@ a.text-dark:hover, a.text-dark:focus {
 
 .divider-custom.divider-orange .divider-custom-line {
   background-color: orange;
+}
+
+.divider-custom.divider-orange .divider-custom-vertical-line {
+  background-color: orange;
+}
+
+.divider-custom.divider-hobbies .divider-custom-line {
+  background-color: salmon;
+}
+
+.divider-custom.divider-hobbies .divider-custom-vertical-line {
+  background-color: salmon;
 }
 
 .divider-custom.divider-green .divider-custom-line {
@@ -9741,6 +9759,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .divider-custom.divider-orange .divider-custom-icon {
   color: orange !important;
+}
+
+.divider-custom.divider-hobbies .divider-custom-icon {
+  color: salmon !important;
 }
 
 .divider-custom.divider-green .divider-custom-icon {
@@ -9819,12 +9841,16 @@ a.text-dark:hover, a.text-dark:focus {
   color: blue;
 }
 
-#mainNav .navbar-nav li.nav-item-references a.nav-link {
+#mainNav .navbar-nav li.nav-item-education a.nav-link {
   color: orange;
 }
 
-#mainNav .navbar-nav li.nav-item-hobbies a.nav-link {
+#mainNav .navbar-nav li.nav-item-references a.nav-link {
   color: green;
+}
+
+#mainNav .navbar-nav li.nav-item-hobbies a.nav-link {
+  color: salmon;
 }
 
 #mainNav .navbar-nav li.nav-item-contact a.nav-link {
@@ -9839,12 +9865,16 @@ a.text-dark:hover, a.text-dark:focus {
   color: lightblue;
 }
 
-#mainNav .navbar-nav li.nav-item-references a.nav-link:hover {
+#mainNav .navbar-nav li.nav-item-education a.nav-link:hover {
   color: #ffff28;
 }
 
-#mainNav .navbar-nav li.nav-item-hobbies a.nav-link:hover {
+#mainNav .navbar-nav li.nav-item-references a.nav-link:hover {
   color: lightgreen;
+}
+
+#mainNav .navbar-nav li.nav-item-hobbies a.nav-link:hover {
+  color: lightsalmon;
 }
 
 #mainNav .navbar-nav li.nav-item-contact a.nav-link:hover {
@@ -9864,6 +9894,14 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item-portfolio a.nav-link.active {
+  color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item-education a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #fff;
+}
+
+#mainNav .navbar-nav li.nav-item-education a.nav-link.active {
   color: #fff;
 }
 
@@ -9921,13 +9959,17 @@ a.text-dark:hover, a.text-dark:focus {
     color: #fff;
     background: blue;
   }
-  #mainNav .navbar-nav > li.nav-item-references > a.nav-link.active {
+  #mainNav .navbar-nav > li.nav-item-education > a.nav-link.active {
     color: #fff;
     background: orange;
   }
-  #mainNav .navbar-nav > li.nav-item-hobbies > a.nav-link.active {
+  #mainNav .navbar-nav > li.nav-item-references > a.nav-link.active {
     color: #fff;
     background: green;
+  }
+  #mainNav .navbar-nav > li.nav-item-hobbies > a.nav-link.active {
+    color: #fff;
+    background: salmon;
   }
   #mainNav .navbar-nav > li.nav-item-contact > a.nav-link.active {
     color: #fff;
