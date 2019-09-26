@@ -12,14 +12,13 @@
  */
 :root {
   --black: #000000;
-  --blue: #007bff;
-  --lightblue: #00ff00;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #dc3545;
   --lightred: #ff0000;
   --yellow: #e5ad06;
+  --portfolio-color: #007282;
   --orange: #fd7e14;
   --lightorange: #ffff28;
   --lightyellow: #fff;
@@ -191,7 +190,7 @@ a:hover {
 }
 
 .a.link-blue {
-  color: blue;
+  color: portfolio-color;
   text-decoration: none;
   background-color: transparent;
 }
@@ -203,7 +202,7 @@ a:hover {
 }
 
 .a.link-blue:hover {
-  color: blue;
+  color: portfolio-color;
   text-decoration: underline;
 }
 
@@ -2312,8 +2311,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: blue;
-  border-color: blue;
+  background-color: portfolio-color;
+  border-color: portfolio-color;
 }
 
 .btn-white {
@@ -2324,8 +2323,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: lightblue;
-  border-color: lightblue;
+  background-color: portfolio-color;
+  border-color: portfolio-color;
 }
 
 .btn-white:hover {
@@ -3992,7 +3991,7 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-  border-color: blue blue blue;
+  border-color: #fff #fff #fff;
 }
 
 .nav-tabs .nav-link.disabled {
@@ -9462,7 +9461,7 @@ button.bg-dark:focus {
 }
 
 .text-blue {
-  color: blue !important;
+  color: portfolio-color !important;
 }
 
 .text-green {
@@ -9473,8 +9472,8 @@ button.bg-dark:focus {
   color: salmon !important;
 }
 
-.text-cyan {
-  color: cyan !important;
+.text-contact {
+  color: red !important;
 }
 
 .text-black {
@@ -9750,7 +9749,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom.divider-blue .divider-custom-line {
-  background-color: blue;
+  background-color: portfolio-color;
 }
 
 .divider-custom.divider-light .divider-custom-icon {
@@ -9770,7 +9769,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom.divider-blue .divider-custom-icon {
-  color: blue !important;
+  color: portfolio-color !important;
 }
 
 .btn-xl {
@@ -9838,7 +9837,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item-portfolio a.nav-link {
-  color: blue;
+  color: portfolio-color;
 }
 
 #mainNav .navbar-nav li.nav-item-education a.nav-link {
@@ -9854,7 +9853,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item-contact a.nav-link {
-  color: cyan;
+  color: red;
 }
 
 #mainNav .navbar-nav li.nav-item-intro a.nav-link:hover {
@@ -9862,7 +9861,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item-portfolio a.nav-link:hover {
-  color: lightblue;
+  color: white;
 }
 
 #mainNav .navbar-nav li.nav-item-education a.nav-link:hover {
@@ -9878,7 +9877,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item-contact a.nav-link:hover {
-  color: white;
+  color: lightred;
 }
 
 #mainNav .navbar-nav li.nav-item-intro a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -9957,7 +9956,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   #mainNav .navbar-nav > li.nav-item-portfolio > a.nav-link.active {
     color: #fff;
-    background: blue;
+    background: portfolio-color;
   }
   #mainNav .navbar-nav > li.nav-item-education > a.nav-link.active {
     color: #fff;
@@ -9973,7 +9972,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   #mainNav .navbar-nav > li.nav-item-contact > a.nav-link.active {
     color: #fff;
-    background: cyan;
+    background: red;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
@@ -10070,7 +10069,7 @@ a.text-dark:hover, a.text-dark:focus {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: blue;
+  color: portfolio-color;
   opacity: 1;
 }
 
