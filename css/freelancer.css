@@ -9720,8 +9720,17 @@ a.text-dark:hover, a.text-dark:focus {
 
 .divider-custom .divider-custom-vertical-line {
   height: 100%;
-  min-height: 3rem;
   max-height: 7rem;
+  width: 0.25rem;
+  background-color: black;
+  border-radius: 1rem;
+  border-color: black !important;
+}
+
+.divider-custom .divider-custom-vertical-long-line {
+  height: 100%;
+  min-height: 20rem;
+  max-height: 20rem;
   width: 0.25rem;
   background-color: black;
   border-radius: 1rem;
@@ -9745,11 +9754,19 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: orange;
 }
 
+.divider-custom.divider-orange .divider-custom-vertical-long-line {
+  background-color: orange;
+}
+
 .divider-custom.divider-brown .divider-custom-line {
   background-color: brown;
 }
 
 .divider-custom.divider-brown .divider-custom-vertical-line {
+  background-color: brown;
+}
+
+.divider-custom.divider-brown .divider-custom-vertical-long-line {
   background-color: brown;
 }
 
