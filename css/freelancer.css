@@ -18,7 +18,6 @@
   --red: #dc3545;
   --lightred: #ff0000;
   --yellow: #e5ad06;
-  --portfolio-color: #007282;
   --orange: #fd7e14;
   --lightorange: #ffff28;
   --lightyellow: #fff;
@@ -27,12 +26,12 @@
   --lightgreen: #60ff75;
   --darkgreen: #072711;
   --teal: #1abc9c;
-  --cyan: #17a2b8;
   --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
+  --blue: #667d9d;
+  --lightblue: #b2bece;
+  --brown: #a55c2a;
   --salmon: #fa8072;
-  --lightsalmon: #fff;
+  --lightsalmon: #fef2f0;
   --primary: #000000;
   --secondary: #000000;
   --success: #28a745;
@@ -184,13 +183,19 @@ a:hover {
   background-color: transparent;
 }
 
+.a.link-brown {
+  color: brown;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 .a.link-orange:hover {
   color: darkorange;
   text-decoration: underline;
 }
 
 .a.link-blue {
-  color: portfolio-color;
+  color: blue;
   text-decoration: none;
   background-color: transparent;
 }
@@ -202,7 +207,7 @@ a:hover {
 }
 
 .a.link-blue:hover {
-  color: portfolio-color;
+  color: blue;
   text-decoration: underline;
 }
 
@@ -2311,8 +2316,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: portfolio-color;
-  border-color: portfolio-color;
+  background-color: blue;
+  border-color: blue;
 }
 
 .btn-white {
@@ -2323,8 +2328,8 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: portfolio-color;
-  border-color: portfolio-color;
+  background-color: blue;
+  border-color: blue;
 }
 
 .btn-white:hover {
@@ -9460,8 +9465,12 @@ button.bg-dark:focus {
   color: orange !important;
 }
 
+.text-brown {
+  color: brown !important;
+}
+
 .text-blue {
-  color: portfolio-color !important;
+  color: blue !important;
 }
 
 .text-green {
@@ -9473,7 +9482,7 @@ button.bg-dark:focus {
 }
 
 .text-contact {
-  color: red !important;
+  color: orange !important;
 }
 
 .text-black {
@@ -9736,6 +9745,14 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: orange;
 }
 
+.divider-custom.divider-brown .divider-custom-line {
+  background-color: brown;
+}
+
+.divider-custom.divider-brown .divider-custom-vertical-line {
+  background-color: brown;
+}
+
 .divider-custom.divider-hobbies .divider-custom-line {
   background-color: salmon;
 }
@@ -9749,7 +9766,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom.divider-blue .divider-custom-line {
-  background-color: portfolio-color;
+  background-color: blue;
 }
 
 .divider-custom.divider-light .divider-custom-icon {
@@ -9758,6 +9775,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .divider-custom.divider-orange .divider-custom-icon {
   color: orange !important;
+}
+
+.divider-custom.divider-brown .divider-custom-icon {
+  color: brown !important;
 }
 
 .divider-custom.divider-hobbies .divider-custom-icon {
@@ -9769,7 +9790,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom.divider-blue .divider-custom-icon {
-  color: portfolio-color !important;
+  color: blue !important;
 }
 
 .btn-xl {
@@ -9837,11 +9858,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item-portfolio a.nav-link {
-  color: portfolio-color;
+  color: blue;
 }
 
 #mainNav .navbar-nav li.nav-item-education a.nav-link {
-  color: orange;
+  color: brown;
 }
 
 #mainNav .navbar-nav li.nav-item-references a.nav-link {
@@ -9853,7 +9874,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item-contact a.nav-link {
-  color: red;
+  color: orange;
 }
 
 #mainNav .navbar-nav li.nav-item-intro a.nav-link:hover {
@@ -9861,11 +9882,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item-portfolio a.nav-link:hover {
-  color: white;
+  color: lightblue;
 }
 
 #mainNav .navbar-nav li.nav-item-education a.nav-link:hover {
-  color: #ffff28;
+  color: #c99d7f;
 }
 
 #mainNav .navbar-nav li.nav-item-references a.nav-link:hover {
@@ -9877,7 +9898,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item-contact a.nav-link:hover {
-  color: lightred;
+  color: yellow;
 }
 
 #mainNav .navbar-nav li.nav-item-intro a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -9956,11 +9977,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
   #mainNav .navbar-nav > li.nav-item-portfolio > a.nav-link.active {
     color: #fff;
-    background: portfolio-color;
+    background: blue;
   }
   #mainNav .navbar-nav > li.nav-item-education > a.nav-link.active {
     color: #fff;
-    background: orange;
+    background: brown;
   }
   #mainNav .navbar-nav > li.nav-item-references > a.nav-link.active {
     color: #fff;
@@ -9972,7 +9993,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   #mainNav .navbar-nav > li.nav-item-contact > a.nav-link.active {
     color: #fff;
-    background: red;
+    background: orange;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
@@ -10069,7 +10090,7 @@ a.text-dark:hover, a.text-dark:focus {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: portfolio-color;
+  color: blue;
   opacity: 1;
 }
 
